@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Circus Feedback</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<header>
+<h1>All About Circus</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="clowns.html">Clowns</a></li>
+<li><a href="musicians.html">Musicians</a></li>
+<li><a href="acrobats.html">Acrobats</a></li>
+<li><a href="dancers.html">Dancers</a></li>
+<li><a href="circusfeedback.html">circus Feedback</a></li>
+</ul>
+</nav>
+</header>
+<h1>Circus Survey</h1>
+<aside>
+<figure>
+<img src="images/circus-feedback.jpg" alt="a cup of espresso" />
+</figure>
+</aside>
+<form action="coffee-survey.php" method="post">
+<fieldset>
+<legend>Personal Information</legend>
+Your Name<br/>
+<input type="text" name="name" required size="40"/>
+<br/>
+Email Address<br/>
+<input type="email" name="email" required placeholder="enter a valid email address"  size="40"/>
+<br/>
+</fieldset>
+<fieldset>
+<legend>Your Circus Preferences:</legend>
+Tell us which circus events you'r going to attend<br/>
+<textarea name="preparation" cols="40" rows="6" ></textarea>
+<br/><br/>
+Do you want snacks<br/>
+<input type="radio" name="grind" value="yes" />yes<br/>
+<input type="radio" name="grind" value="no" />no<br/>
+<br/>
+Select the circus Type<br/>
+<input type="checkbox" name="drink" value="Royal circus" />Royal Circus<br/>
+<input type="checkbox" name="drink" value="Normal circus" />Normal Circus<br/>
+<br/>
+select the circus events<br/>
+<select name="favorite">
+<option value="">Dancers</option>
+<option value="drip">Musician</option>
+<option value="french">clowns</option>
+<option value="espresso">acrobats</option>
+</select>
+</fieldset>
+</form>
+<footer>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="clowns.html">Clowns</a></li>
+<li><a href="musicians.html">Musicians</a></li>
+<li><a href="acrobats.html">Acrobats</a></li>
+<li><a href="dancers.html">Dancers</a></li>
+<li><a href="circusfeedback.html">Coffee Survey</a></li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>
