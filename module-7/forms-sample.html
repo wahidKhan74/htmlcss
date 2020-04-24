@@ -9,12 +9,79 @@
 </head>
 
 <body>
-<h1>Forms</h1>
+<h1>Employee Form</h1>
+<!-- // form tag important attribute
+// action -> uri  or place where submit the data
+// method -> GET / POST  -->
+<form action="/employees" method="GET">
+    <!-- important attribute in input tag
+    type -> text , password ,email , hidden
+    name -> key to data 
+    -->
+    First Name: <input type="text" name="firstName"><br/>
+    Email: <input type="email" name="email"> <br>
 
-First Name:
+    Employeement Type : 
 
-<br/>
-Email:
+    Permanent<input type="checkbox" value="permanent" name="check">
+    Temporary<input type="checkbox" value="temporary" name="check">
+    Internship<input type="checkbox" value="internship" name="check">
+    Contract<input type="checkbox" value="contract" name="check">
+    <br>
+    <br>
+    Gender :
+    Male :<input type="radio" name="gender" value="male">
+    Female :<input type="radio" name="gender" value="female">
+    Other :<input type="radio" name="gender" value="other">
+    <br>
+    Message
+    <textarea name="message" >
+
+    </textarea>
+    <!-- //Dropdown -->
+    <br>
+    <br>
+    Select Department
+    <select name="dept" >
+        <option value="Engineering">Engineering</option>
+        <option value="Operations" >Operations</option>
+        <option value="Testing">Testing</option>
+        <option value="Dev" selected>Developement</option>
+    </select>
+    <br>
+    password:
+    <input type="password" name="password" id="">
+
+    <br>
+    Family Member Count:
+    <input type="number" name="count" id="">
+    <br>
+    Range:
+    <input type="range" min="10" max="100" name="range">
+    <br>
+    DOB:
+    <input type="date" name="dob" id="dob">
+   <br>
+    Birth Time
+    <input type="time" name="btime" id="btime">
+
+    Color:
+    <input type="color" name="color" id="bcolor">
+
+<br>
+<br>
+<br>
+    <input type="submit" value="Create Employee">
+    
+
+</form>
+
+
+
+
+
+
+
 
 <br/>
 Checkbox:
