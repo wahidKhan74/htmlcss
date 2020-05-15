@@ -18,13 +18,24 @@
     type -> text , password ,email , hidden
     name -> key to data 
     -->
-    First Name: <input type="text" name="firstName"><br/>
-    Email: <input type="email" name="email"> <br>
+    <fieldset>
+    <legend>Personal Informaion</legend>
+    <label for="name"> First Name: </label> <input type="text" name="firstName" 
+    placeholder="Enter Your Name Here" value="John" readonly required id="name"><br/><br>
+    <label for="email">Email :</label>
+    <input type="email" name="email"  placeholder="Enter Your Email Here" id="email" > <br><br>
 
+    <br>
+    <label for="spassword">password:</label>
+    
+    <input type="password" name="password" id="spassword">
+    </fieldset>
+    <fieldset>
+    <legend>Employeement Information</legend>
     Employeement Type : 
 
     Permanent<input type="checkbox" value="permanent" name="check">
-    Temporary<input type="checkbox" value="temporary" name="check">
+    Temporary<input type="checkbox" value="temporary" name="check" disabled>
     Internship<input type="checkbox" value="internship" name="check">
     Contract<input type="checkbox" value="contract" name="check">
     <br>
@@ -48,10 +59,7 @@
         <option value="Testing">Testing</option>
         <option value="Dev" selected>Developement</option>
     </select>
-    <br>
-    password:
-    <input type="password" name="password" id="">
-
+    
     <br>
     Family Member Count:
     <input type="number" name="count" id="">
@@ -72,59 +80,13 @@
 <br>
 <br>
     <input type="submit" value="Create Employee">
-    
+   </fieldset> 
 
 </form>
 
 
 
-
-
-
-
-
-<br/>
-Checkbox:
-check 1
-check 2
-<br/>
-Radio:
-radio 1
-radio 2
-<br/>
-Message:
-
-<br/>
-Dropdown:
-
-Option 1
-Option 2
-Option 3
-Option 4
-Option 5
-
-<br/>
-Password:
-
-<br/>
-Number: 
-
-<br/>
-Range: 
-1 10
-<br/>
-Date: 
-
-<br/>
-Time: 
-
-<br/>
-Color: 
-
-
-<br/>
-
-
-
+<span>sample text</span>
+<span>sample text</span>
 </body>
 </html>

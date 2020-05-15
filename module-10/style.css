@@ -1,0 +1,79 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    width: 960px;
+}
+h1, h2,h3{
+    color: brown;
+}
+
+aside{
+    width: 280px;
+    float: right;
+    background-color: tan;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.photo-left{
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    text-decoration: none;
+    display: inline;
+    float: left;
+    
+}
+
+nav a:link , nav a:visited{
+   background-color: brown;
+   color: white;
+   display: block;
+   width: 160px;
+   text-decoration: none;
+   padding: 10px 0;
+   text-align: center;
+}
+
+nav a:hover{
+     background-color: black;
+}
+
+header{
+    background-image: url('images/circus.jpg');
+    height: 100px;
+    margin-bottom: 100px
+}
+
+header h1{
+    color: #ffffffb8;
+    margin-left: 30px;
+    margin-top:30px;
+    font-size: 50px
+}
+
+footer{
+    margin:40px 0;
+}
+footer nav a:link ,footer nav a:visited{
+    background-color: white;
+    color: grey;
+    display: block;
+    width: 160px;
+    text-decoration: none;
+    padding: 10px 0;
+    text-align: center;
+ }
+ 
+ footer nav a:hover{
+      background-color: black;
+ }

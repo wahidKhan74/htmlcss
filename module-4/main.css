@@ -1,0 +1,25 @@
+#special-link{
+    color: brown;
+}
+
+a:link{
+    color: cyan !important;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    background-color: yellow !important;
+}
+
+a:hover{
+    color: white;
+    background-color: brown;
+    /* display: block; */
+}
+
+
+a:active{
+    color: black;
+    background-color: blue;
+}
+

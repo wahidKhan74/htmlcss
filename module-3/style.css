@@ -1,0 +1,21 @@
+h2{
+   color: blue 
+}
+h1{
+    color:yellow;
+}
+/* div p b{
+    font-size: 3em;
+} */
+
+/* section p b{
+    font-size: 3em;
+} */
+
+/* #bold{
+    font-size: 3em;
+} */
+
+.bold,h1,p{
+    font-size: 3em;
+}

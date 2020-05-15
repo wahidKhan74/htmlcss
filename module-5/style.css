@@ -1,0 +1,20 @@
+#block1{
+    background-color: lightblue;
+}
+#block2{
+    background-color: orange;
+}
+#block3{
+    background-color: green;
+    
+}
+div{
+    height: 300px;
+    width: 500px; 
+    /* overflow: scroll; */
+    margin: 20px;
+    /* margin-left: 20px; */
+    /* margin:30px 20px; */
+    padding: 20px;
+    float: left;
+}

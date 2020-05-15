@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.Container {
+    background-color: yellow;
+    height: auto;
+    width: 100%;
+}
+
+.wrapper {
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: red;
+    width: auto;
+    height: 50px;
+    margin: 0 50px 0 50px;
+    position: relative;
+}
+
+.wrapper .logo {
+     float: left;
+}
+.wrapper .nav {
+    float: right;
+}

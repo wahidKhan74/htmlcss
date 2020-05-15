@@ -1,0 +1,15 @@
+
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+h1{
+    color: #5a059a;
+    font-size: 2em;
+}
+.container{
+    background-color: lightblue;
+    height: 400px;
+    width: 200px;
+    float: left;
+    margin: 20px
+}
