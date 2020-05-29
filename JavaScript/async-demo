@@ -1,0 +1,8 @@
+console.log("Line 1"); 
+console.log("Line 2");
+//callback : async programming
+setTimeout(function(){
+  console.log("Line 3");
+},2000)
+console.log("Line 4");
+console.log("Line 5");

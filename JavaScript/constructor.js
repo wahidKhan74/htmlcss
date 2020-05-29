@@ -2,6 +2,7 @@
 
 //Java :- To create Object.
 // JavaScript :-  It is a blueprint to create dynamic object.
+let empList =  new Array();
 
 function Employee(id,name,salary){
   this.id = id;
@@ -18,6 +19,11 @@ let emp3 = new Employee(1012,"R Smith",2093343);
                         
 console.log(emp2);
 console.log(emp3);
+
+empList.push(emp1);
+empList.push(emp2);
+empList.push(emp3);
+
 
 // 3 example
 // Bank User

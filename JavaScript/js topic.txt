@@ -1,0 +1,15 @@
+Agenda:-
+-----------
+
+- function 
+- hoisting
+- function expression / Immediately invoke function expression - IIFE
+- constructor
+- callback
+- arrow function
+- callback hell
+- promisses
+- event
+
+
+------------
