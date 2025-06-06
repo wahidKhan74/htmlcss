@@ -1,34 +1,75 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Tables</title>
+    <meta charset="utf-8">
+    <title>Tables</title>
 </head>
 
 <body>
 
-<h1>Tables</h1>
+    <h1>Tables</h1>
+
+    <table border="1">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>column 1</th>
+                <th colspan="2">column 2</th>
+                <th>column 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">data 1-1</td>
+                <td>data 1-2</td>
+                <td>data 1-3</td>
+            </tr>
+            <tr>
+                <td>data 2-1</td>
+                <td>data 2-2</td>
+                <td>data 2-3</td>
+            </tr>
+            <tr>
+                <td>total 1</td>
+                <td>total 2</td>
+                <td>total 3</td>
+            </tr>
+        </tbody>
+    </table>
 
 
-column 1
-column 2
-column 3
-
-
-data 1-1
-data 2-1
-data 3-1
-
-
-data 1-2
-data 2-2
-data 3-2
-
-
-total 1
-total 2
-total 3
-
-
+    <h2>Employee Information</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th>Employee ID</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Department</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>John Doe</td>
+            <td>Software Engineer</td>
+            <td>Development</td>
+            <td><a href="#create">Create</a></td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Jane Smith</td>
+            <td>Project Manager</td>
+            <td>Management</td>
+             <td><a href="#create">Create</a></td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Emily Johnson</td>
+            <td>UX Designer</td>
+            <td>Design</td>
+             <td><a href="#create">Create</a></td>
+        </tr>
+    </table>
 </body>
+
 </html>
