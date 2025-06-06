@@ -1,0 +1,58 @@
+/* Element Selector : Tag name as selector */
+p {
+    color: brown;
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* Class Selector : classname (class atrtribute name ) as selector */
+.sub-heading {
+    color: #000000;
+    font-size: 20px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+/* ID Selector : Id attribute name as selector */
+#main-heading {
+    color: #ff0000;
+    font-size: 3em;
+    margin: 10px;
+    background-color: yellow;
+}
+
+/* Group Selector : Multiple selectors separated by comma */
+p , pre , #para {
+    color: #0000ff;
+    font-size: 16px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Descendant Selector : Parent selector followed by child selector */
+div > section > pre {
+    color: #008000;
+    font-size: 18px;
+    margin: 10px;
+}
+
+div > section > #code-block {
+    color: #0000ff;
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* Universal Selector : * as selector */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Type of CSS Selector 
+1) Element Selector : Tag name as selector
+2) Class Selector : classname (class atrtribute name ) as selector
+3) ID Selector : Id attribute name as selector
+4) Group Selector : Multiple selectors separated by comma
+5) Descendant Selector : Parent selector followed by child selector
+6) Universal Selector : * as selector */
