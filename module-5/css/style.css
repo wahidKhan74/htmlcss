@@ -1,0 +1,39 @@
+body {
+   font-family: "Inter", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+}
+
+#block1 {
+    background-color: lightblue;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px;
+}
+
+#block2 {
+    background-color: lightgreen;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px;
+}
+
+#block3 {
+    background-color: lightcoral;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px;
+}
+
+div {
+    height: 350px;
+    width: 450px;
+    float: left;
+    /* overflow: scroll; */
+}
+
+/* h1{
+    color: rgb(235 51 11);
+    background-color: rgb(0 255 255 / 40%);
+} */
