@@ -1,0 +1,26 @@
+a:link {
+    color: #0000FF; 
+    text-decoration: none; 
+    font-size: 18px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5px;
+}
+
+a:visited {
+    color: #7a081d; 
+    text-decoration: none; 
+    font-size: 18px;
+}
+
+a:hover {
+    color: green; 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+a:active {
+    color: red; 
+    text-decoration: none; 
+    font-size: 18px;
+}
